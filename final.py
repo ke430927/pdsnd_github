@@ -145,7 +145,7 @@ def station_stats(df):
     # Remove the temporary column
     #df.drop('Start-End Combination', axis=1, inplace=True)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds:" % (time.time() - start_time))
     print('-'*40)
 
 
@@ -163,7 +163,7 @@ def trip_duration_stats(df):
     Mean_Travel_Time = df['Trip Duration'].mean()
     print('Mean Travel Time (seconds): ',Mean_Travel_Time)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds:" % (time.time() - start_time))
     print('-'*40)
 
 
@@ -204,7 +204,7 @@ def user_stats(df):
     else:
         print("Birth Year data not available for this dataset.")
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds:" % (time.time() - start_time))
     print('-'*40)
 
 
