@@ -4,7 +4,7 @@
 Github account was created over a month ago with the remaining work being done today 04.07.2023 
 
 ### Project Title
-GITHUBPROJECT
+GITHUBPROJECTv2
 
 ### Description
 Python program that allows users to filter through 6 months of bike-share data from 3 different cities.  The data can be navigated through by city, timeseries, returns customer, user, and other location metrics/statistics.
